@@ -1,0 +1,9 @@
+site_name: Arjun Puthli
+theme:
+  name: terminal
+
+nav:
+  - /about: 'docs/index.md'
+  - /projects: ''
+  - /blog: ''
+  - /CV:  ''
