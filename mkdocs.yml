@@ -3,7 +3,15 @@ theme:
   name: terminal
 
 nav:
-  - /about: 'docs/index.md'
+  - /about: 'index.md'
   - /projects: ''
-  - /blog: ''
+  - /blog: 'blog/blog.md'
   - /CV:  ''
+
+plugins:
+  - blogging:
+      dirs:
+        - blog
+      sort:
+        from: new
+        by: creation
