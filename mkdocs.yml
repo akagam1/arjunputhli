@@ -16,3 +16,4 @@ plugins:
       sort:
         from: new
         by: creation
+      locale: en_IN
