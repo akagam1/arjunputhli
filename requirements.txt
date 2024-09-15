@@ -1,3 +1,4 @@
 mkdocs
 mkdocs-terminal
 mkdocs-blogging-plugin
+mkdocs[i18n]

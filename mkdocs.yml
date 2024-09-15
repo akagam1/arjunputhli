@@ -2,10 +2,11 @@ site_name: Arjun Puthli
 site_url: https://akagam1.github.io/my-website/
 theme:
   name: terminal
+  palette: gruvbox_dark
 
 nav:
   - /about: 'index.md'
-  - /projects: ''
+  - /projects: 'projects/projects.md'
   - /blog: 'blog/blog.md'
   - /CV:  ''
 
