@@ -7,7 +7,7 @@ theme:
 nav:
   - /about: 'index.md'
   - /projects: 'projects/projects.md'
-  - /blog: 'blog.md'
+  - /blog: 'blog/blog.md'
   - /CV:  ''
 
 plugins:
