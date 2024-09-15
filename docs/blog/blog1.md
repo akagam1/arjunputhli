@@ -1,4 +1,4 @@
-# An unlikely masterpiece
+# [An unlikely masterpiece](https://akagam1.github.io/arjunputhli/blog/blog1/)
 
 If you are even slightly familiar with me, I've probably suggested reading The Wheel of Time. Saying it's one of my favourite fantasy series is honestly an understatement. I have "My name is Nyneave ti al'Meara Mandragon" and "I've won again Lews Therin" written on my whiteboard for crying out loud! However, despite being the superfan that I am of this 14 book behemoth, I totally understand why someone would drop the series after the first book alone. In fact, most fans rank 'The Eye of the World' quite low in their overall series ranking. I feel it's not appreciated enough, and that it is actually quite the literary masterpiece!
 
