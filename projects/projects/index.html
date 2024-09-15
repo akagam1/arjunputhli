@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.6.0">
+     
+     
+    
+    <link rel="canonical" href="https://akagam1.github.io/my-website/projects/projects/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>/projects - Arjun Puthli</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- gruvbox_dark color palette -->
+<link href="../../css/palettes/gruvbox_dark.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+     
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="https://akagam1.github.io/my-website/" class="no-style">Arjun Puthli</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">/about</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="./" class="menu-item active" property="item" typeof="WebPage">
+                        <span property="name">/projects</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../blog/blog/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">/blog</span>
+                    </a>
+                    <meta property="position" content="2">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">/CV</span>
+                    </a>
+                    <meta property="position" content="3">
+                </li>
+                
+                    
+                    
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+  
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../..">/about</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        <span class="
+
+    terminal-mkdocs-side-nav-item--active">/projects</span>
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../../blog/blog/">/blog</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../..">/CV</a>
+        
+    
+    
+    
+  </li>
+        
+    </ul>
+  
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <p><strong>Operator Learning Methods</strong></p>
+<p><em>Sep 2024 - Present</em></p>
+<p>Implementing various operator learning methods, particularly Neural Operator (and it's variants) to solve Partial Differential Equations. This method can learn mesh-free, infinite dimensional operators with neural networks. Different parameterizations of the integral kernel have led to variations of the original work. <strong>Mesh invariance</strong> allows us to train the network on a lower resolution dataset, yet yield great results on higher resolution test inputs.</p>
+<p>You can see the code <a href="https://github.com/akagam1/operator-learning" style="text-decoration:none;text-decoration-style: none;">here</a>.</p>
+<hr />
+<p><strong>Differential Equation Solver Library</strong></p>
+<p><em>Sep 2024 - Present</em></p>
+<p>I'm building my own JAX based numerical solver for differential equations (inspired by <a href="https://docs.kidger.site/diffrax/" style="text-decoration:none;text-decoration-style: none;">diffrax</a>). I hope to eventually expand it to include neural ODEs and SDEs.</p>
+<p>You can see the code <a href="https://github.com/akagam1/myDiffX" style="text-decoration:none;text-decoration-style: none;">here</a>.</p>
+<hr />
+<p><strong>Pyswarm</strong></p>
+<p><em>Sep 2024 - Present</em></p>
+<p>Developing a python package for multi-agent coordination and navigation algorithm simulations at <a href=" https://erc-bpgc.github.io " style="text-decoration:none;text-decoration-style: bold;">ERC BPGC</a>. </p>
+<p>You can see the code <a href="https://github.com/ERC-BPGC/swarmbots" style="text-decoration:none;text-decoration-style: none;">here</a>.</p>
+<hr />
+<p><strong>Existence, Uniqueness and Continuation of solutions for Functional Differential Equations</strong></p>
+<p><em>Jan 2024 - May 2024</em></p>
+<p>Worked under <a href="https://www.bits-pilani.ac.in/goa/m-thamban-nair/">Dr. MT Nair</a> on studying an article published in the American Mathematical Monthly, and derived elementary proofs of the results presented with an undergraduate student in mind. Explored the applications of the results on the <strong>Volterra-Hammerstein Integro Differential Equation</strong> and researched numerical methods to solve the same.</p>
+<p>Some of the results still need proof-reading but you can see the disseration <a href="https://drive.google.com/file/d/1JDVSTNePzmIIM-nCAiihm3V1webU5-2D/view?usp=sharing" style="text-decoration:none;text-decoration-style: none;">here</a>.</p>
+<hr />
+<p><strong>Reinforcement Learning for Drone Navigation in environments with dynamic obstacles</strong></p>
+<p><em>Jun 2023 - Aug 2023</em></p>
+<p>Worked under <a href="https://sites.google.com/view/harikumar-kandath/home">Prof. Harikumar Kandath</a> at the Robotics Research Centre, IIIT-Hyderebad on studying the effects of time varying bias in the observation space in training UAV navigation in environments with dynamic obstacles. Used the PPO algorithm to train the agent.</p>
+<hr />
+<p><strong>Project Kratos: Autonomous Subsystem</strong></p>
+<p><em>Sep 2022 - Apr 2023</em></p>
+<p>Was part of BITS Goa's Mars Rover competitive team, working as a member of the autonomous subsystem. Worked on real-time obstacle detection and avoidance using YOLOv3 and ROS based integration using darknet_ROS. Implemented GPS and magnetometer based navigation, localization and mapping to efficiently traverse between GPS coordinates.</p>
+<p>See more about the project <a href="https://kratos-the-rover.github.io/" style="text-decoration:none;text-decoration-style: none;">here</a>.</p>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    
+    
+</body>
+
+</html>
