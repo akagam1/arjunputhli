@@ -1,19 +1,16 @@
+**Data Driven Exterior Calculus based PDE Optimizer**
+
+_Jan 2025 - Present_
+
+Implementing a Physics Informed Neural Network driven by an exterior calculus framework on graph structures. Based on this [paper](https://www.sciencedirect.com/science/article/pii/S0021999122000316), and since no code is available for the same, I'm hoping to fill in that gap. The end goal is to integrate this with a Graph Neural Operator.
+
 **Operator Learning Methods**
 
-_Sep 2024 - Present_
+_Sep 2024 - Dec 2024_
 
 Implementing various operator learning methods, particularly Neural Operator (and it's variants) to solve Partial Differential Equations. This method can learn mesh-free, infinite dimensional operators with neural networks. Different parameterizations of the integral kernel have led to variations of the original work. **Mesh invariance** allows us to train the network on a lower resolution dataset, yet yield great results on higher resolution test inputs.
 
 You can see the code <a href="https://github.com/akagam1/operator-learning" style="text-decoration:none;text-decoration-style: none;">here</a>.
-
----
-**Differential Equation Solver Library**
-
-_Sep 2024 - Present_
-
-I'm building my own JAX based numerical solver for differential equations (inspired by <a href="https://docs.kidger.site/diffrax/" style="text-decoration:none;text-decoration-style: none;">diffrax</a>). I hope to eventually expand it to include neural ODEs and SDEs.
-
-You can see the code <a href="https://github.com/akagam1/myDiffX" style="text-decoration:none;text-decoration-style: none;">here</a>.
 
 ---
 **Pyswarm**
