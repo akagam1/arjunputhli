@@ -4,6 +4,8 @@ _Jan 2025 - Present_
 
 Implementing a Physics Informed Neural Network driven by an exterior calculus framework on graph structures. Based on this [paper](https://www.sciencedirect.com/science/article/pii/S0021999122000316), and since no code is available for the same, I'm hoping to fill in that gap. The end goal is to integrate this with a Graph Neural Operator.
 
+---
+
 **Operator Learning Methods**
 
 _Sep 2024 - Dec 2024_
